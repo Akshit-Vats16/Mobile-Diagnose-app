@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensors"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnAccel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Accelerometer"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnGyro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnLight"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Light Sensor"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnProximity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Proximity Sensor"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Diagnostic Tool"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Device Info"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSensors"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sensors"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnStorage"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Storage | Memory"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnCallLogs"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Call Logs"/>
+
+    </LinearLayout>
+</ScrollView>
